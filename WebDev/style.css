@@ -1,0 +1,101 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background colors */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+
+/* Style hero section */
+.hero {
+  background-image: url("IMG/header.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.heroM {
+  background-image: url("IMG/heroM-01.jpeg");
+  background-size: cover;
+  text-align: center;
+  padding: 500px 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.heroW {
+  background-image: url("IMG/heroW-01.jpeg");
+  background-size: cover;
+  text-align: center;
+  padding: 500px 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.heroK {
+  background-image: url("IMG/heroK-01.jpeg");
+  background-size: cover;
+  text-align: center;
+  padding: 500px 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  height: 50px; 
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin-right: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
